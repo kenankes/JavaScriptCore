@@ -1,0 +1,15 @@
+We can use JavaScript in Web Development, GameDev (Unity) and also in mobile app development (Apache Cordova).
+For large scaled business applications, there is a superset of JS which is called TypeScript.
+JS can also be used to create full-fledged applications for Windows and Mac desktops via Electron.
+You can create web servers, web APIs and other services using Node.js.
+JS is a multiplatform language !
+
+You need to install npm in your directory. To do so => run "npm init --yes" in command. This will create a package.json file. You can add ->
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-sever"
+  },
+ "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+    to your json file. Then run "npm install". This is necessary to execute your script.
