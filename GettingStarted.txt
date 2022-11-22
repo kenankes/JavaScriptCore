@@ -7,7 +7,7 @@ JS is a multiplatform language !
 You need to install npm in your directory. To do so => run "npm init --yes" in command. This will create a package.json file. You can add ->
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-sever"
+    "start": "lite-server"
   },
  "devDependencies": {
     "lite-server": "^2.6.1"
