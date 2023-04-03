@@ -23,7 +23,7 @@ To run the npm lite server, tap "npm run start" on terminal
 You can write your JavaScript code directly in your html file by adding <script> ... </script> inside the <body>. However, it is better
 to keep the JavaScript code inside its own file (.js).
 
-To load an external script into your html -> "<script src="./filenam.js"></script>" 
+To load an external script into your html -> "<script src="./filename.js"></script>" 
 The "./" represent the directory where the index.html file is located.
 
 ========================================================
@@ -33,3 +33,17 @@ We can also create another JavaScript file and add it to the index.html, for exa
 See utils.js -> You can modify textContent by ID. To do so, in index.html you should add an ID to the components in the html file.
 
 To detect the runtime errors, go to the browser, right click on the page then Inspect. Under the console tab, you will see your errors if there are any.
+
+
+========================================================
+
+DECLARING VARIABLES
+
+to declare vairables, we use "let" keyword. Then we put the name of the variable.
+
+========================================================
+
+IF CONDITION !!!
+
+Double Equals (==) checks for value equality only. It inherently does type coercion. This means that before checking the values, it converts the types of the variables to match each other.
+On the other hand, Triple Equals (===) does not perform type coercion. It will verify whether the variables being compared have both the same value AND the same type.
